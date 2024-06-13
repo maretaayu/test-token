@@ -1,0 +1,527 @@
+{
+  "Theme": {
+    "Base": {
+      "Primary": {
+        "value": "{color.seagreen.80}",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "{color.seagreen.50}",
+        "type": "color"
+      },
+      "Tertiary": {
+        "value": "{color.seagreen.20}",
+        "type": "color"
+      }
+    },
+    "Text": {
+      "Solid": {
+        "Ink": {
+          "value": "{color.cloudy.110}",
+          "type": "color"
+        },
+        "Invert": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "Neutral": {
+          "value": "{color.cloudy.90}",
+          "type": "color"
+        },
+        "Subtle": {
+          "value": "{color.cloudy.30}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{color.cloudy.70}",
+          "type": "color"
+        },
+        "Highlight": {
+          "value": "{color.red.90}",
+          "type": "color"
+        },
+        "Critical": {
+          "value": "{color.red.90}",
+          "type": "color"
+        },
+        "Information": {
+          "value": "{color.blue.90}",
+          "type": "color"
+        },
+        "Success": {
+          "value": "{color.green.90}",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "{color.orange.90}",
+          "type": "color"
+        },
+        "Active": {
+          "value": "{color.seagreen.90}",
+          "type": "color"
+        }
+      },
+      "Gradient": {
+        "Highlight": {
+          "value": "linear-gradient(235deg, {Theme.Base.Secondary} 0%, {Theme.Base.Primary} 100%)",
+          "type": "color"
+        }
+      }
+    },
+    "Action": {
+      "Radius": {
+        "value": "{borderRadius.full}",
+        "type": "borderRadius"
+      },
+      "Primary": {
+        "Default": {
+          "value": "{color.orange.80}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{color.orange.90}",
+          "type": "color"
+        },
+        "Active": {
+          "value": "{color.orange.100}",
+          "type": "color"
+        },
+        "Focus": {
+          "value": "{color.orange.90}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{color.orange.40}",
+          "type": "color"
+        },
+        "FocusOutline": {
+          "value": "{color.orange.40}",
+          "type": "color"
+        }
+      },
+      "Secondary": {
+        "Default": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{color.cloudy.10}",
+          "type": "color"
+        },
+        "Active": {
+          "value": "{color.cloudy.30}",
+          "type": "color"
+        }
+      },
+      "Outline": {
+        "Hover": {
+          "value": "{color.cloudy.100}",
+          "type": "color"
+        },
+        "Active": {
+          "value": "{color.cloudy.90}",
+          "type": "color"
+        },
+        "Focus": {
+          "value": "{color.cloudy.100}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{color.cloudy.60}",
+          "type": "color"
+        }
+      },
+      "Danger": {
+        "Default": {
+          "value": "{color.red.80}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{color.red.90}",
+          "type": "color"
+        },
+        "Active": {
+          "value": "{color.red.100}",
+          "type": "color"
+        },
+        "Focus": {
+          "value": "{color.red.90}",
+          "type": "color"
+        },
+        "FocusOutline": {
+          "value": "{color.red.40}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{color.red.40}",
+          "type": "color"
+        }
+      },
+      "Link": {
+        "Default": {
+          "value": "{color.seagreen.80}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{color.seagreen.90}",
+          "type": "color"
+        },
+        "Pressed": {
+          "value": "{color.seagreen.100}",
+          "type": "color"
+        },
+        "Focus": {
+          "value": "{color.seagreen.90}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{color.seagreen.40}",
+          "type": "color"
+        }
+      }
+    },
+    "Background": {
+      "Subtle": {
+        "Neutral": {
+          "value": "{color.cloudy.70}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{color.cloudy.20}",
+          "type": "color"
+        },
+        "Information": {
+          "value": "{color.blue.20}",
+          "type": "color"
+        },
+        "Success": {
+          "value": "{color.green.20}",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "{color.yellow.20}",
+          "type": "color"
+        },
+        "Critical": {
+          "value": "{color.red.20}",
+          "type": "color"
+        },
+        "Highlight": {
+          "value": "{color.red.20}",
+          "type": "color"
+        },
+        "Accent": {
+          "value": "{color.seagreen.20}",
+          "type": "color"
+        },
+        "Active": {
+          "value": "{color.seagreen.40}",
+          "type": "color"
+        }
+      },
+      "Solid": {
+        "Neutral": {
+          "value": "{color.cloudy.110}",
+          "type": "color"
+        },
+        "Invert": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{color.cloudy.40}",
+          "type": "color"
+        },
+        "Information": {
+          "value": "{color.blue.80}",
+          "type": "color"
+        },
+        "Success": {
+          "value": "{color.green.80}",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "{color.orange.80}",
+          "type": "color"
+        },
+        "Critical": {
+          "value": "{color.red.80}",
+          "type": "color"
+        },
+        "Highlight": {
+          "value": "{color.red.80}",
+          "type": "color"
+        },
+        "Accent": {
+          "value": "{color.seagreen.80}",
+          "type": "color"
+        },
+        "Active": {
+          "value": "{color.seagreen.80}",
+          "type": "color"
+        },
+        "Facebook": {
+          "value": "{color.crayola.80}",
+          "type": "color"
+        },
+        "Whatsapp": {
+          "value": "{color.ufo-green.80}",
+          "type": "color"
+        }
+      },
+      "Gradient": {
+        "Accent": {
+          "value": "linear-gradient(135deg, {Theme.Base.Primary} 0%, {Theme.Base.Secondary} 100%)",
+          "type": "color"
+        },
+        "Highlight": {
+          "value": "linear-gradient(90deg, #e52a34 0%, #ea279c 49.48%, #f26d0f 100%)",
+          "type": "color"
+        },
+        "Hero": {
+          "value": "linear-gradient(235deg, {Theme.Base.Secondary} 0%, {Theme.Base.Primary} 100%)",
+          "type": "color"
+        }
+      },
+      "Transparent": {
+        "value": "{color.transparent}",
+        "type": "color"
+      },
+      "Canvas": {
+        "Light": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "Dark": {
+          "value": "{color.cloudy.120}",
+          "type": "color"
+        },
+        "Subtle": {
+          "value": "{color.cloudy.20}",
+          "type": "color"
+        }
+      }
+    },
+    "Border": {
+      "Default": {
+        "value": "{color.cloudy.50}",
+        "type": "color"
+      },
+      "Active": {
+        "value": "{color.seagreen.70}",
+        "type": "color"
+      },
+      "Ink": {
+        "value": "{color.cloudy.110}",
+        "type": "color"
+      },
+      "Invert": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{color.cloudy.40}",
+        "type": "color"
+      },
+      "Critical": {
+        "value": "{color.red.80}",
+        "type": "color"
+      },
+      "Information": {
+        "value": "{color.blue.80}",
+        "type": "color"
+      },
+      "Success": {
+        "value": "{color.green.80}",
+        "type": "color"
+      },
+      "Warning": {
+        "value": "{color.orange.80}",
+        "type": "color"
+      },
+      "Highlight": {
+        "value": "{color.seagreen.80}",
+        "type": "color"
+      }
+    },
+    "Icon": {
+      "Ink": {
+        "value": "{color.cloudy.110}",
+        "type": "color"
+      },
+      "Invert": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{color.cloudy.70}",
+        "type": "color"
+      },
+      "Highlight": {
+        "value": "{color.red.80}",
+        "type": "color"
+      },
+      "Critical": {
+        "value": "{color.red.80}",
+        "type": "color"
+      },
+      "Information": {
+        "value": "{color.blue.80}",
+        "type": "color"
+      },
+      "Success": {
+        "value": "{color.green.80}",
+        "type": "color"
+      },
+      "Warning": {
+        "value": "{color.orange.80}",
+        "type": "color"
+      },
+      "Active": {
+        "value": "{color.seagreen.80}",
+        "type": "color"
+      },
+      "Neutral": {
+        "value": "{color.cloudy.80}",
+        "type": "color"
+      }
+    },
+    "Selection": {
+      "Default": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "Hover": {
+        "value": "{color.cloudy.10}",
+        "type": "color"
+      },
+      "Active": {
+        "value": "{color.blue.20}",
+        "type": "color",
+        "description": "Active or Selected"
+      },
+      "Pressed": {
+        "value": "{color.cloudy.30}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{color.cloudy.20}",
+        "type": "color"
+      }
+    },
+    "Outline": {
+      "Selected": {
+        "Hover": {
+          "value": "{color.seagreen.10}",
+          "type": "color"
+        },
+        "Focus": {
+          "value": "{color.seagreen.20}",
+          "type": "color"
+        },
+        "Pressed": {
+          "value": "{color.seagreen.30}",
+          "type": "color"
+        }
+      },
+      "Unselected": {
+        "Hover": {
+          "value": "{color.cloudy.20}",
+          "type": "color"
+        },
+        "Focus": {
+          "value": "{color.cloudy.30}",
+          "type": "color"
+        },
+        "Pressed": {
+          "value": "{color.cloudy.40}",
+          "type": "color"
+        }
+      }
+    },
+    "Component": {
+      "Solid": {
+        "Cloudy": {
+          "value": "{color.cloudy.80}",
+          "type": "color"
+        },
+        "Orange": {
+          "value": "{color.orange.80}",
+          "type": "color"
+        },
+        "Red": {
+          "value": "{color.red.80}",
+          "type": "color"
+        },
+        "Green": {
+          "value": "{color.green.80}",
+          "type": "color"
+        },
+        "Seagreen": {
+          "value": "{color.seagreen.80}",
+          "type": "color"
+        },
+        "Indigo": {
+          "value": "{color.indigo.80}",
+          "type": "color"
+        },
+        "Purple": {
+          "value": "{color.purple.80}",
+          "type": "color"
+        },
+        "Blue": {
+          "value": "{color.blue.80}",
+          "type": "color"
+        },
+        "Yellow": {
+          "value": "{color.yellow.80}",
+          "type": "color"
+        }
+      },
+      "Subtle": {
+        "Cloudy": {
+          "value": "{color.cloudy.20}",
+          "type": "color"
+        },
+        "Orange": {
+          "value": "{color.orange.20}",
+          "type": "color"
+        },
+        "Red": {
+          "value": "{color.red.20}",
+          "type": "color"
+        },
+        "Green": {
+          "value": "{color.green.20}",
+          "type": "color"
+        },
+        "Seagreen": {
+          "value": "{color.seagreen.20}",
+          "type": "color"
+        },
+        "Indigo": {
+          "value": "{color.indigo.20}",
+          "type": "color"
+        },
+        "Purple": {
+          "value": "{color.purple.20}",
+          "type": "color"
+        },
+        "Blue": {
+          "value": "{color.blue.20}",
+          "type": "color"
+        }
+      }
+    },
+    "Skeleton": {
+      "Start": {
+        "value": "{color.cloudy.50}",
+        "type": "color"
+      },
+      "End": {
+        "value": "{color.cloudy.30}",
+        "type": "color"
+      }
+    }
+  }
+}
